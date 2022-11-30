@@ -11,7 +11,7 @@ Objective: implementing Augmented Reality for displaying images through certain 
 Scope: A major target was to build a model that can help children to learn things through images as learning by using images is more fascinating and fruitful.
 
 
-![image](https://user-images.githubusercontent.com/95572175/204800233-57734a98-4a7b-4c40-8e16-cecef4aac281.png)
+![image](https://user-images.githubusercontent.com/95572175/204847651-f99e6b07-1b74-4f19-bf3e-40003fd1ac05.png)
 
                              UseCase diagram for AR Model
                              
