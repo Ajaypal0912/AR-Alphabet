@@ -3,12 +3,33 @@
 Learnify is an Augmented Reality based project.
 
 Virtual Reality- It's like  creating a whole new virtual environment in a frame.
+
 Augmented Reality- Augmented reality is adding virtual objects in a real environment.
 
 Objective: implementing Augmented Reality for displaying images through certain specified markers.
 
 Scope: A major target was to build a model that can help children to learn things through images as learning by using images is more fascinating and fruitful.
 
+
 ![image](https://user-images.githubusercontent.com/95572175/204800233-57734a98-4a7b-4c40-8e16-cecef4aac281.png)
 
+                             UseCase diagram for AR Model
+                             
+                 
+ Implementation: Majorly while implementing the whole model i have used A-frame and Ar.js libraries.
+ 
+ A-Frame- A-Frame is a web framework for building virtual reality (VR) experiences. A-Frame is based on top of HTML, making it simple to get started.
 
+Originally conceived within Mozilla and now maintained by the co-creators of A-Frame within Supermedium, A-Frame was developed to be an easy yet powerful way to develop VR content. As an independent open source project, A-Frame has grown to be one of the largest VR communities.
+
+A-Frame supports most VR headsets such as Vive, Rift, Windows Mixed Reality, Daydream, GearVR, Cardboard, Oculus Go, and can even be used for augmented reality. Although A-Frame supports the whole spectrum, A-Frame aims to define fully immersive interactive VR experiences that go beyond basic 360° content, making full use of positional tracking and controllers.
+ 
+ Ar.js- AR.js is a lightweight library for Augmented Reality on the Web, which includes features like Image Tracking, Location based AR and Marker tracking.\
+ 
+ AR.js features the following types of Augmented Reality, on the Web:
+  1. Image Tracking, when a 2D images is found by the camera, it's possible to show some kind of content on top of it, or near it. 
+
+  2. Location Based AR, this kind of AR uses real-world places in order to show Augmented Reality content, on the user device. The experiences that can be built with          this library are those that use a user's position in the real world. 
+
+  3. Marker Tracking, When a marker is found by the camera, it's possible to show some content (same as Image Tracking). Markers are very stable but limited in shape,        color and size.
+  
