@@ -33,3 +33,15 @@ A-Frame supports most VR headsets such as Vive, Rift, Windows Mixed Reality, Day
 
   3. Marker Tracking, When a marker is found by the camera, it's possible to show some content (same as Image Tracking). Markers are very stable but limited in shape,        color and size.
   
+  
+ Code:
+ <a-scene> tag is used to create a scene using A-Frame library.
+A scene is the place where everything happens. When creating new objects in the demo, we will be adding them all to the scene to make them visible on the screen. In    A-Frame, the scene is represented by a Scene entity.
+
+Then to implement Augmented Reality, ar.js library is embedded in the <A-scene> tag using, <a-scene embedded arjs>
+
+Now to select the animations that we want to show in the screen are selected and assests are created out from those animations using <a-assets> tag.
+
+Then markers are need to be introduces using <a-marker> tag.
+
+<a-entity camera></a-entity> Used to add camera to the web browser.
